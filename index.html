@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<style>
+			@font-face {
+				font-family: 'JejuGothic';
+				src: url('JejuGothic.woff2') format('woff2'),
+					url('JejuGothic.woff') format('woff');
+				font-weight: normal;
+				font-style: normal;
+				font-display: swap;
+			}
+
+			* {
+				margin: 0px;
+				padding: 0px;
+			}
+
+			body {
+				font-family: 'JejuGothic';
+				background-color: #fff;
+			}
+
+			.flex {
+				display: flex;
+			}
+
+			#one {
+				justify-content: space-between;
+			}
+
+			#two {
+				margin-top: 20px;
+				margin-left: 20px;
+			}
+
+			#two>p {
+				font-size: 60px;
+				font-weight: 500;
+			}
+
+			#three {
+				margin-top: 20px;
+				margin-right: 20px;
+			}
+
+			#three>a {
+				font-size: 22px;
+				margin-left: 20px;
+				color: #000;
+				font-weight: 500;
+			}
+			.four>img {
+				height: 160px;
+				width: 250px;
+			}
+
+			.four>p {
+				margin-top: 20px;
+				text-align: center;
+				font-size: 28px;
+			}
+
+			.div {
+				padding-top: 70px;
+				margin: auto;
+				width: 80%;
+				justify-content: space-evenly;
+
+			}
+
+			#div_1 {
+				width: 500px;
+				height: 500px;
+				background-color: #000;
+				position: absolute;	
+				top: 250px;
+				left: 100px;
+				display: none;
+			}
+			#div_2{
+				width: 400px;
+				height: 400px;
+				margin: auto;
+				padding-top: 120px;
+				color: #fff;
+				font-size: 22px;
+			}
+			#two:hover #div_1{
+				
+				display: block;
+			}
+			@media all and (max-width:1300px){
+				.four>img {
+					height: 110px;
+					width: 200px;
+				}
+			}
+			@media all and (max-width:800px){
+				.four>img {
+					height: 80px;
+					width: 150px;
+				}
+			}
+			@media all and (max-width:600px){
+				.four>img {
+					height: 60px;
+					width: 100px;
+				}
+			}
+		</style>
+	</head>
+	<body>
+		<div class="flex" id="one">
+			<div id="two">
+				<p>POPULAR</p>
+				<p>BABY</p>
+				<p>NAMES</p>
+				<div id="div_1">
+					<div id="div_2">
+						<p>This is a data collection of the most popular baby names from 2011-2019. For each year, there are four
+							data:
+						</p>
+						<p>Two most popular boy names
+						</p>
+						<p>Two most popular girl names;
+						</p>
+						<p>
+							The data design comes from the block toy for baby initiation. 
+						</p>
+						<p style="margin-top: 20px;">Enjoy your time on this website♡</p>
+					</div>
+				</div>
+			</div>
+			<div class="flex" id="three">
+				<a href="#" onclick="s('MALE')" id="a_1">MALE</a>
+				<a href="#" style="text-decoration: none;" onclick="s('FEMALE')" id="a_2">FEMALE</a>
+			</div>
+		</div>
+		<div>
+			<div class="flex div">
+				<div class="four" onclick="dj('2011')">
+					<img src="img/cube.png" />
+					<p>2011</p>
+				</div>
+				<div class="four" onclick="dj('2012')">
+					<img src="img/cube.png" />
+					<p>2012</p>
+				</div>
+				<div class="four" onclick="dj('2013')">
+					<img src="img/cube.png" />
+					<p>2013</p>
+				</div>
+			</div>
+			<div class="flex div">
+				<div class="four" onclick="dj('2014')">
+					<img src="img/cube.png" />
+					<p>2014</p>
+				</div>
+				<div class="four" onclick="dj('2015')">
+					<img src="img/cube.png" />
+					<p>2015</p>
+				</div>
+				<div class="four" onclick="dj('2016')">
+					<img src="img/cube.png" />
+					<p>2016</p>
+				</div>
+			</div>
+			<div class="flex div">
+				<div class="four" onclick="dj('2017')">
+					<img src="img/cube.png" />
+					<p>2017</p>
+				</div>
+				<div class="four" onclick="dj('2018')">
+					<img src="img/cube.png" />
+					<p>2018</p>
+				</div>
+				<div class="four" onclick="dj('2019')">
+					<img src="img/cube.png" />
+					<p>2019</p>
+				</div>
+			</div>
+		</div>
+		<script>
+			var sex='MALE';
+			function s(x){
+				if(x=='MALE'){
+					sex='MALE';
+					document.getElementById("a_1").style.textDecoration='underline';
+					document.getElementById("a_2").style.textDecoration='none';
+				}else{
+					sex='FEMALE';
+					document.getElementById("a_1").style.textDecoration='none';
+					document.getElementById("a_2").style.textDecoration='underline';
+				}
+			}
+			function dj(x){
+				window.location.href='storywhite.html'+"?"+sex+"?"+x
+			}
+		</script>
+	</body>
+</html>

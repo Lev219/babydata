@@ -1,0 +1,291 @@
+[
+  {
+      "brth_yr": "2019",
+      "gndr": "FEMALE",
+      "ethcty": "HISPANIC",
+      "nm": "Isabella",
+      "cnt": "231",
+      "rnk": "1"
+    },
+    {
+      "brth_yr": "2019",
+      "gndr": "FEMALE",
+      "ethcty": "HISPANIC",
+      "nm": "Emma",
+      "cnt": "213",
+      "rnk": "2"
+    },
+    {
+      "brth_yr": "2019",
+      "gndr": "MALE",
+      "ethcty": "HISPANIC",
+      "nm": "Liam",
+      "cnt": "423",
+      "rnk": "1"
+    },    
+    {
+      "brth_yr": "2019",
+      "gndr": "MALE",
+      "ethcty": "HISPANIC",
+      "nm": "Noah",
+      "cnt": "262",
+      "rnk": "2"
+    },    
+    {
+      "brth_yr": "2018",
+      "gndr": "FEMALE",
+      "ethcty": "HISPANIC",
+      "nm": "Isabella",
+      "cnt": "285",
+      "rnk": "1"
+    }, 
+    {
+      "brth_yr": "2018",
+      "gndr": "FEMALE",
+      "ethcty": "WHITE NON HISPANIC",
+      "nm": "Esther",
+      "cnt": "246",
+      "rnk": "1"
+    },
+    {
+      "brth_yr": "2018",
+      "gndr": "MALE",
+      "ethcty": "HISPANIC",
+      "nm": "Liam",
+      "cnt": "399",
+      "rnk": "1"
+    },  
+    {
+      "brth_yr": "2018",
+      "gndr": "MALE",
+      "ethcty": "WHITE NON HISPANIC",
+      "nm": "David",
+      "cnt": "274",
+      "rnk": "1"
+    },
+    {
+      "brth_yr": "2017",
+      "gndr": "MALE",
+      "ethcty": "HISPANIC",
+      "nm": "Liam",
+      "cnt": "407",
+      "rnk": "1"
+    },
+    {
+      "brth_yr": "2017",
+      "gndr": "MALE",
+      "ethcty": "HISPANIC",
+      "nm": "Jacob",
+      "cnt": "290",
+      "rnk": "2"
+    },
+    {
+      "brth_yr": "2017",
+      "gndr": "FEMALE",
+      "ethcty": "WHITE NON HISPANIC",
+      "nm": "Esther",
+      "cnt": "260",
+      "rnk": "1"
+    },
+    {
+      "brth_yr": "2017",
+      "gndr": "FEMALE",
+      "ethcty": "HISPANIC",
+      "nm": "Mia",
+      "cnt": "250",
+      "rnk": "1"
+    },
+    {
+      "brth_yr": "2016",
+      "gndr": "MALE",
+      "ethcty": "HISPANIC",
+      "nm": "Liam",
+      "cnt": "387",
+      "rnk": "1"
+    },
+    {
+      "brth_yr": "2016",
+      "gndr": "MALE",
+      "ethcty": "HISPANIC",
+      "nm": "Jacob",
+      "cnt": "351",
+      "rnk": "2"
+    },
+    {
+      "brth_yr": "2016",
+      "gndr": "FEMALE",
+      "ethcty": "HISPANIC",
+      "nm": "Isabella",
+      "cnt": "276",
+      "rnk": "1"
+    },
+    {
+      "brth_yr": "2016",
+      "gndr": "FEMALE",
+      "ethcty": "HISPANIC",
+      "nm": "Sophia",
+      "cnt": "261",
+      "rnk": "2"
+    },
+    {
+      "brth_yr": "2015",
+      "gndr": "MALE",
+      "ethcty": "HISPANIC",
+      "nm": "Liam",
+      "cnt": "356",
+      "rnk": "1"
+    },
+    {
+      "brth_yr": "2015",
+      "gndr": "MALE",
+      "ethcty": "HISPANIC",
+      "nm": "Dylan",
+      "cnt": "339",
+      "rnk": "2"
+    },
+    {
+      "brth_yr": "2015",
+      "gndr": "FEMALE",
+      "ethcty": "HISPANIC",
+      "nm": "Isabella",
+      "cnt": "307",
+      "rnk": "1"
+    },
+    {
+      "brth_yr": "2015",
+      "gndr": "FEMALE",
+      "ethcty": "HISPANIC",
+      "nm": "Sophia",
+      "cnt": "269",
+      "rnk": "2"
+    },
+    {
+      "brth_yr": "2014",
+      "gndr": "MALE",
+      "ethcty": "HISPANIC",
+      "nm": "Liam",
+      "cnt": "312",
+      "rnk": "1"
+    },
+    {
+      "brth_yr": "2014",
+      "gndr": "MALE",
+      "ethcty": "WHITE NON HISPANIC",
+      "nm": "Joseph",
+      "cnt": "300",
+      "rnk": "1"
+    },
+    {
+      "brth_yr": "2014",
+      "gndr": "FEMALE",
+      "ethcty": "HISPANIC",
+      "nm": "Sophia",
+      "cnt": "259",
+      "rnk": "1"
+    },
+    {
+      "brth_yr": "2014",
+      "gndr": "FEMALE",
+      "ethcty": "WHITE NON HISPANIC",
+      "nm": "Esther",
+      "cnt": "233",
+      "rnk": "2"
+    },
+    {
+      "brth_yr": "2013",
+      "gndr": "MALE",
+      "ethcty": "HISPANIC",
+      "nm": "Jayden",
+      "cnt": "352",
+      "rnk": "1"
+    },
+    {
+      "brth_yr": "2013",
+      "gndr": "MALE",
+      "ethcty": "WHITE NON HISPANIC",
+      "nm": "David",
+      "cnt": "304",
+      "rnk": "1"
+    },
+    {
+      "brth_yr": "2013",
+      "gndr": "FEMALE",
+      "ethcty": "HISPANIC",
+      "nm": "Isabella",
+      "cnt": "326",
+      "rnk": "1"
+    },
+    {
+      "brth_yr": "2013",
+      "gndr": "FEMALE",
+      "ethcty": "HISPANIC",
+      "nm": "Sophia",
+      "cnt": "291",
+      "rnk": "2"
+    },
+    {
+      "brth_yr": "2012",
+      "gndr": "MALE",
+      "ethcty": "WHITE NON HISPANIC",
+      "nm": "Jayden",
+      "cnt": "364",
+      "rnk": "1"
+    },
+    {
+      "brth_yr": "2012",
+      "gndr": "MALE",
+      "ethcty": "WHITE NON HISP",
+      "nm": "Joseph",
+      "cnt": "300",
+      "rnk": "1"
+    },
+    {
+      "brth_yr": "2012",
+      "gndr": "FEMALE",
+      "ethcty": "HISPANIC",
+      "nm": "Isabella",
+      "cnt": "327",
+      "rnk": "1"
+    },
+    {
+      "brth_yr": "2012",
+      "gndr": "FEMALE",
+      "ethcty": "WHITE NON HISP",
+      "nm": "Emma",
+      "cnt": "228",
+      "rnk": "1"
+    },
+    {
+      "brth_yr": "2011",
+      "gndr": "MALE",
+      "ethcty": "HISPANIC",
+      "nm": "Jayden",
+      "cnt": "426",
+      "rnk": "1"
+    },
+    {
+      "brth_yr": "2011",
+      "gndr": "MALE",
+      "ethcty": "HISPANIC",
+      "nm": "Justin",
+      "cnt": "310",
+      "rnk": "2"
+    },
+    {
+      "brth_yr": "2011",
+      "gndr": "FEMALE",
+      "ethcty": "HISPANIC",
+      "nm": "Isabella",
+      "cnt": "331",
+      "rnk": "1"
+    },
+    {
+      "brth_yr": "2011",
+      "gndr": "FEMALE",
+      "ethcty": "HISPANIC",
+      "nm": "Mia",
+      "cnt": "229",
+      "rnk": "2"
+    }
+
+]

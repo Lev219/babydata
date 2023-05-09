@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<style>
+			* {
+				margin: 0px;
+				padding: 0px;
+			}
+
+			#one {
+				width: 15vw;
+				height: 100vw;
+				border-right: 2px solid #000;
+				display: flex;
+				flex-direction: column;
+				justify-content: space-evenly;
+			}
+
+			#one>div {
+				text-align: center;
+			}
+
+			#img_1 {
+				height: 13vw;
+				width: 18vw;
+				position: relative;
+				right: 2vw;
+			}
+
+			#img_2 {
+				height: 15vw;
+				width: 19vw;
+				position: relative;
+				right: 1vw;
+				top: 2vw;
+			}
+
+			#img_3 {
+				height: 15vw;
+				width: 13vw;
+				position: relative;
+				top: 1vw;
+			}
+
+			#img_4 {
+				height: 15vw;
+				width: 20vw;
+				position: relative;
+				right: 3vw;
+				top: 1vw;
+			}
+
+			#img_5 {
+				height: 20vw;
+				width: 14vw;
+				position: relative;
+				right: -1vw;
+				top: 3vw;
+			}
+
+			#sj2 {
+				width: 0px;
+				height: 0px;
+				border-top: 30px solid #fff;
+				border-bottom: 30px solid #fff;
+				border-left: 30px solid #000;
+				border-right: 30px solid #fff;
+				position: relative;
+				top: 50vw;
+				left: -10vw;
+			}
+
+			#sj1 {
+				width: 0px;
+				height: 0px;
+				border-top: 30px solid #fff;
+				border-bottom: 30px solid #fff;
+				border-left: 30px solid #fff;
+				border-right: 30px solid #000;
+				position: relative;
+				top: 50vw;
+				left: 5vw;
+			}
+
+			#one>div>p {
+				font-size: 2vw;
+				font-weight: 500;
+			}
+
+			#two {
+				display: flex;
+				margin: auto;
+			}
+
+			#two>img {
+				height: 110vw;
+				width: 100vw;
+			}
+
+			#three {
+				height: 100vh;
+				width: 200px;
+
+			}
+
+			#three_1 {
+				font-size: 3vw;
+				margin-top: 20px;
+
+			}
+
+			#three_2 {
+				display: flex;
+				margin-top: 75vh;
+			}
+
+			#three_2>p {
+				color: #000;
+				font-size: 4vw;
+			}
+
+			/* #aa {
+				display: none;
+			} */
+			/* @media all and (min-width:3071px) and (max-width:3073px) {
+				#aa {
+					display: flex;
+					position: relative;
+					top: -560px;
+					left: 690px;
+				}
+			} */
+			/* @media all and (min-width:3023px) and (max-width:3025px) {
+				#aa {
+					display: flex;
+					position: relative;
+					top: -570px;
+					left: 660px;
+				}
+			} */
+		</style>
+	</head>
+	<body>
+		<div style="display: flex;">
+			<div id="one">
+				<div onclick="cx('z')">
+					<img id="img_1" src="img/图形-39.png" />
+					<p>MALE</p>
+				</div>
+				<div onclick="cx('y')">
+					<img id="img_2" src="img/圆-39.png" />
+					<p>FEMALE</p>
+				</div>
+				<div onclick="cx('w')">
+					<img id="img_3" src="img/图形-38.png" />
+					<p>COUNT/100</p>
+				</div>
+				<div onclick="cx('l')">
+					<img id="img_4" src="img/图形-41.png" />
+					<p>COUNT/10</p>
+				</div>
+				<div onclick="cx('s')">
+					<img id="img_5" src="img/图形-40.png" />
+					<p>COUNT/1</p>
+				</div>
+			</div>
+
+			<div id="two">
+				<div id="sj1" onclick="sj()"></div>
+				<img id="img" src="img/图形-37.png" />
+				<div id="sj2" onclick="sj()"></div>
+			</div>
+			<div id="three">
+				<div id="three_1">
+					<p>Year:xxxxx</p>
+					<p>Name:xxxxx</p>
+					<p>Count:xxxxx</p>
+				</div>
+				<div id="three_2">
+					<p onclick="tt()">BACK</p>
+					<p onclick="tz()" style="margin-left: 20px;">NEXT</p>
+				</div>
+			</div>
+		</div>
+		<div id="aa">
+			<div style="display: flex;">
+				<div id="a1" style="visibility:hidden;position: relative;left: 33vw;top:-50vw;"><img
+						style="height:10vw;width: 12vw;transform: rotate(30deg);" src="img/图形-39.png" /></div>
+				<div id="a2" style="visibility:hidden;position: relative;left: 33vw;top:-50vw"><img
+						style="height:11vw;width: 14vw;transform: rotate(0deg);" src="img/圆-39.png" /></div>
+			</div>
+			<div style="display: flex;">
+				<div id="b1" style="visibility:hidden;position: relative;left: 50vw;top:-55vw"><img
+						style="height:14vw;width: 11vw;transform: rotate(60deg);" src="img/图形-38.png" /></div>
+				<div id="b2" style="visibility:hidden;position: relative;left: 70vw;top:-55vw"><img
+						style="height:14vw;width: 11vw;transform: rotate(60deg);" src="img/图形-38.png" /></div>
+				<div id="b3" style="visibility:hidden;position: relative;left: 50vw;top:-70vw"><img
+						style="height:14vw;width: 11vw;transform: rotate(60deg);" src="img/图形-38.png" /></div>
+				<div id="b4" style="visibility:hidden;position: relative;left: 40vw;top:-95vw"><img
+						style="height:14vw;width: 11vw;transform: rotate(60deg);" src="img/图形-38.png" /></div>
+			
+			</div>
+			<div style="display: flex;">
+				<div id="c1" style="visibility:hidden;position: relative;left: 30vw;top:-90vw"><img
+						style="height:10vw;width: 14vw;transform: rotate(20deg);" src="img/图形-41.png" /></div>
+				<div id="c2" style="visibility:hidden;position: relative;left: 30vw;top:-85vw"><img
+						style="height:10vw;width: 14vw;transform: rotate(20deg);" src="img/图形-41.png" /></div>
+				<div id="c3" style="visibility:hidden;position: relative;left: 30vw;top:-100vw"><img
+						style="height:10vw;width: 14vw;transform: rotate(20deg);" src="img/图形-41.png" /></div>
+				<div id="c4" style="visibility:hidden;position: relative;left: 30vw;top:-90vw"><img
+						style="height:10vw;width: 14vw;transform: rotate(20deg);" src="img/图形-41.png" /></div>
+				<div id="c5" style="visibility:hidden;position: relative;left: 30vw;top:-90vw"><img
+						style="height:10vw;width: 14vw;transform: rotate(20deg);" src="img/图形-41.png" /></div>
+				<div id="c6" style="visibility:hidden;position: relative;left: 10vw;top:-80vw"><img
+						style="height:10vw;width: 14vw;transform: rotate(20deg);" src="img/图形-41.png" /></div>
+				<div id="c7" style="visibility:hidden;position: relative;left: 5vw;top:-75vw"><img
+						style="height:10vw;width: 14vw;transform: rotate(20deg);" src="img/图形-41.png" /></div>
+				<div id="c8" style="visibility:hidden;position: relative;left: -30vw;top:-100vw"><img
+						style="height:10vw;width: 14vw;transform: rotate(20deg);" src="img/图形-41.png" /></div>
+				<div id="c9" style="visibility:hidden;position: relative;left: -60vw;top:-90vw"><img
+						style="height:10vw;width: 14vw;transform: rotate(20deg);" src="img/图形-41.png" /></div>
+			</div>
+			<div style="display: flex;">
+				<div id="d1" style="visibility:hidden;position: relative;left: 30vw;top:-100vw"><img
+						style="height:23vw;width: 14vw;transform: rotate(20deg);" src="img/图形-40.png" /></div>
+				<div id="d2" style="visibility:hidden;position: relative;left: 30vw;top:-120vw"><img
+						style="height:23vw;width: 14vw;transform: rotate(20deg);" src="img/图形-40.png" /></div>
+				<div id="d3" style="visibility:hidden;position: relative;left: 25vw;top:-100vw"><img
+						style="height:23vw;width: 14vw;transform: rotate(20deg);" src="img/图形-40.png" /></div>
+				<div id="d4" style="visibility:hidden;position: relative;left: 30vw;top:-90vw"><img
+						style="height:23vw;width: 14vw;transform: rotate(20deg);" src="img/图形-40.png" /></div>
+				<div id="d5" style="visibility:hidden;position: relative;left: 0vw;top:-125vw"><img
+						style="height:23vw;width: 14vw;transform: rotate(20deg);" src="img/图形-40.png" /></div>
+				<div id="d6" style="visibility:hidden;position: relative;left: 0vw;top:-80vw"><img
+						style="height:23vw;width: 14vw;transform: rotate(20deg);" src="img/图形-40.png" /></div>
+				<div id="d7" style="visibility:hidden;position: relative;left: -50vw;top:-110vw"><img
+						style="height:23vw;width: 14vw;transform: rotate(20deg);" src="img/图形-40.png" /></div>
+				<div id="d8" style="visibility:hidden;position: relative;left: -33vw;top:-100vw"><img
+						style="height:23vw;width: 14vw;transform: rotate(20deg);" src="img/图形-40.png" /></div>
+				<div id="d9" style="visibility:hidden;position: relative;left: -47vw;top:-118vw"><img
+						style="height:23vw;width: 14vw;transform: rotate(20deg);" src="img/图形-40.png" /></div>
+			</div>
+		</div>
+		<script>
+			var x = window.location.href.split('?')
+			var yy = 0
+			var sex = x[1]
+			var time = x[2]
+			var y = []
+			var url = "collection.json";
+			var counts = []
+			var count = 0
+			var request = new XMLHttpRequest();
+			request.open("get", url);
+			request.send(null);
+			request.onload = function() {
+				if (request.status == 200) {
+					var json = JSON.parse(request.responseText);
+					for (var i = 0; i < json.length; i++) {
+						if (json[i].gndr == x[1] && json[i].brth_yr == x[2]) {
+							y.push('<p>Year:' + json[i].brth_yr + '</p><p>Name:' + json[i].nm + '</p><p>Count:' + json[i]
+								.cnt + '</p>')
+							counts.push(json[i].cnt)
+						}
+					}
+					document.getElementById("three_1").innerHTML = y[0]
+					count = counts[0]
+				}
+			}
+
+			function tt() {
+				window.location.href = 'index.html';
+			}
+
+			function tz() {
+				var x = window.location.href.split('?');
+				if (x[2] == '2019') {
+					var time = '2011'
+				} else {
+					var time = parseInt(x[2]) + 1;
+				}
+				var url = x[0] + "?" + x[1] + "?" + time;
+				window.location.href = url;
+			}
+
+			function sj() {
+				if (yy == 0) {
+					document.getElementById("three_1").innerHTML = y[1]
+					count = counts[1]
+					yy = 1
+					document.body.clientHeight
+					// if (document.body.clientWidth > 3073 || document.body.clientWidth < 3023 || (document.body.clientWidth >
+					// 		3025 && document.body.clientWidth < 3071)) {
+					// 	document.getElementById('img').src = 'img/图形-37.png';
+					// 	document.getElementById('img').style.height = '1200px';
+					// 	document.getElementById('img').style.width = '1000px';
+					// 	document.getElementById('img').style.marginTop = '0px';
+					// 	document.getElementById('img').style.marginLeft = '0px';
+					// 	document.getElementById('img').style.marginRight = '0px';
+					// }
+					for (var i = 1; i < 3; i++) {
+						document.getElementById('a' + i).style.visibility = 'hidden';
+					}
+					for (var i = 1; i < 5; i++) {
+						document.getElementById('b' + i).style.visibility = 'hidden';
+					}
+					for (var i = 1; i < 10; i++) {
+						document.getElementById('c' + i).style.visibility = 'hidden';
+						document.getElementById('d' + i).style.visibility = 'hidden';
+					}
+				} else {
+					document.getElementById("three_1").innerHTML = y[0]
+					count = counts[0]
+					yy = 0
+					// if (document.body.clientWidth > 3073 || document.body.clientWidth < 3023 || (document.body.clientWidth >
+					// 		3025 && document.body.clientWidth < 3071)) {
+					// 	document.getElementById('img').src = 'img/图形-37.png';
+					// 	document.getElementById('img').style.height = '1200px';
+					// 	document.getElementById('img').style.width = '1000px';
+					// 	document.getElementById('img').style.marginTop = '0px';
+					// 	document.getElementById('img').style.marginLeft = '0px';
+					// 	document.getElementById('img').style.marginRight = '0px';
+					// }
+					for (var i = 1; i < 3; i++) {
+						document.getElementById('a' + i).style.visibility = 'hidden';
+					}
+					for (var i = 1; i < 5; i++) {
+						document.getElementById('b' + i).style.visibility = 'hidden';
+					}
+					for (var i = 1; i < 10; i++) {
+						document.getElementById('c' + i).style.visibility = 'hidden';
+						document.getElementById('d' + i).style.visibility = 'hidden';
+					}
+				}
+			}
+
+			function cx(x) {
+				var s1 = parseInt(parseInt(count) / 100)
+				var s2 = parseInt((parseInt(count) % 100) / 10)
+				var s3 = parseInt(parseInt(count) % 10)
+				// if (document.body.clientWidth > 3073 || document.body.clientWidth < 3023 || (document.body.clientWidth >
+				// 		3025 && document.body.clientWidth < 3071)) {
+				// 	document.getElementById('img').src = 'img/' + count + '.png';
+				// 	document.getElementById('img').style.height = '2000px';
+				// 	document.getElementById('img').style.width = '1500px';
+				// 	document.getElementById('img').style.marginTop = '-600px';
+				// 	document.getElementById('img').style.marginLeft = '-220px';
+				// 	document.getElementById('img').style.marginRight = '-270px';
+				// } else {
+					if (x == 'z' && sex == 'MALE') {
+						document.getElementById('a1').style.visibility = 'visible'
+					} else if (x == 'y' && sex == 'FEMALE') {
+						document.getElementById('a2').style.visibility = 'visible'
+					} else if (x == 'w') {
+						for (var i = 1; i <= s1; i++) {
+							document.getElementById('b' + i).style.visibility = 'visible';
+						}
+					} else if (x == 'l') {
+						for (var i = 1; i <= s2; i++) {
+							document.getElementById('c' + i).style.visibility = 'visible';
+						}
+					} else if (x == 's') {
+						for (var i = 1; i <= s3; i++) {
+							document.getElementById('d' + i).style.visibility = 'visible';
+						}
+					}
+				// }
+			}
+		</script>
+	</body>
+</html>

@@ -1,0 +1,86 @@
+@font-face {
+    font-family: 'JejuGothic';
+    src: url('JejuGothic.woff2') format('woff2'),
+        url('JejuGothic.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+body{font-family: 'JejuGothic';}
+p{font-family: 'JejuGothic';}
+
+.title{
+    font-size: 70px;
+    text-align: left;
+    position: absolute;
+   
+}
+.container {
+    position: relative;
+    text-align: right;
+    top:5vh;
+  }
+  
+  button {
+    border: none;
+    color: #000;
+    text-align: right;
+    text-decoration: underline;
+    font-size: 30px;
+    font-family: JejuGothic;
+    background-color: transparent;
+  }
+.cube1{
+     width:20vh;
+     position:absolute;
+     top:30vh;
+     left:30vw;
+}
+.cube2{
+    width:20vh;
+    position:absolute;
+    top:30vh;
+    left:50vw;
+} 
+.cube3{
+    width:20vh;
+    position:absolute;
+    top:30vh;
+    left:70vw;
+} 
+.cube4{
+    width:20vh;
+    position:absolute;
+    top:55vh;
+    left:30vw;
+} 
+.cube5{
+    width:20vh;
+    position:absolute;
+    top:55vh;
+    left:50vw;
+} 
+.cube6{
+    width:20vh;
+    position:absolute;
+    top:55vh;
+    left:70vw;
+} 
+.cube7{
+    width:20vh;
+    position:absolute;
+    top:80vh;
+    left:30vw;
+} 
+.cube8{
+    width:20vh;
+    position:absolute;
+    top:80vh;
+    left:50vw;
+} 
+.cube9{
+    width:20vh;
+    position:absolute;
+    top:80vh;
+    left:70vw;
+} 
